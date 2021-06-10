@@ -31,7 +31,7 @@ public static void main(String [] args){
 
 			mayor = edad;
 			menor = edad;
-			System.out.println("el mayor es"+ mayor+ "menor"+menor);
+			System.out.println("el mayor es: "+ mayor+ " menor: "+menor);
 			
 		}
 
@@ -41,8 +41,7 @@ public static void main(String [] args){
 
 				mayor = edad;
 
-				System.out.println("entre11");
-				System.out.println("el mayor es"+ mayor+ "menor"+menor);
+				System.out.println("el mayor es: "+ mayor+ " menor: "+menor);
 
 
 			}
@@ -50,9 +49,15 @@ public static void main(String [] args){
 			if (edad < menor) {
 
 				menor = edad;
+				System.out.println("el mayor es: "+ mayor+ " menor: "+menor);
 
-				System.out.println("entre11");
-				System.out.println("el mayor es"+ mayor+ "menor"+menor);
+
+		}
+
+		if (edad == menor || edad == mayor) {
+
+				
+				System.out.println("el mayor es: "+ mayor+ " menor: "+menor);
 
 
 		}
@@ -62,6 +67,7 @@ public static void main(String [] args){
 	}
 
 
-  }
+  	}
 
+  }
 }
